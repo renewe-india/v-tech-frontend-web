@@ -5,8 +5,6 @@ import Footer from '@/components/Footer'
 
 const nunito = Nunito_Sans({
     subsets: ['latin'],
-    display: 'swap',
-    adjustFontFallback: false,
 })
 export const metadata = {
     title: 'V-TECH RENEWABLES',

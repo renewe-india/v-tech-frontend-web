@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body {
-  @apply font-sans;
-}
-
 .fade-in {
     opacity: 0;
     transform: translateY(20px);

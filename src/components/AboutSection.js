@@ -3,7 +3,8 @@ import React from 'react'
 function AboutSection() {
     return (
         <>
-            <section className="mt-32 lg:mt-32 bg-black bg-opacity-90 ">
+            <section id="about" className="pt-32"></section>
+            <section className=" bg-black bg-opacity-90 ">
                 <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2"></div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 container mx-auto py-12 px-4">
                     <div className="w-full rounded-3xl overflow-hidden lg:relative  lg:left-0">
@@ -34,7 +35,7 @@ function AboutSection() {
                             delivering top-notch Services &amp; Solutions in
                             Renewable Energy spectrum including Electrical,
                             Civil, and Piping Infrastructure for Commercial,
-                            Industrial, and Residential segments.
+                            Industrial, and Residential Segments.
                         </div>
                     </div>
                 </div>
