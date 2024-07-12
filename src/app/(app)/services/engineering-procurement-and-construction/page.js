@@ -55,7 +55,7 @@ function Page() {
                         <ul className="mt-3 mx-5 list-none">
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 This initial phase involves defining the
                                 project's scope, objectives, and requirements.
@@ -65,7 +65,7 @@ function Page() {
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 During this stage, project stakeholders identify
                                 project goals, establish budgets, and develop
@@ -94,7 +94,7 @@ function Page() {
                         <ul className="mt-3 mx-5 list-disc">
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 Once the planning phase is complete and all
                                 necessary approvals are obtained, the project
@@ -102,7 +102,7 @@ function Page() {
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 In this phase, detailed engineering designs are
                                 created, and procurement activities begin to
@@ -111,7 +111,7 @@ function Page() {
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 Construction activities commence, including site
                                 preparation, foundation construction, structural
@@ -120,7 +120,7 @@ function Page() {
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 Project management and supervision ensure that
                                 construction progresses according to the plan,
@@ -149,7 +149,7 @@ function Page() {
                         <ul className="mt-3 mx-5 list-disc">
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 After the construction phase, the focus shifts
                                 to operating and maintaining the completed
@@ -159,14 +159,14 @@ function Page() {
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 This includes running equipment, managing
                                 personnel, and ensuring efficient performance.
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 Maintenance activities aim to preserve the
                                 asset's functionality, reliability, and
@@ -174,7 +174,7 @@ function Page() {
                             </li>
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                 </div>
                                 This may include preventive maintenance,
                                 scheduled inspections, repairs, and

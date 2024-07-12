@@ -26,7 +26,7 @@ const DesignAndEngineering = () => {
                 <CurvyLine />
                 <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Feasibility Studies
                         </h2>
@@ -42,7 +42,7 @@ const DesignAndEngineering = () => {
                         </p>
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Electrical Engineering
                         </h2>
@@ -54,7 +54,7 @@ const DesignAndEngineering = () => {
                         </p>
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Civil and Structural Engineering
                         </h2>
@@ -69,7 +69,7 @@ const DesignAndEngineering = () => {
                         </p>
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Detailed Engineering
                         </h2>
@@ -88,7 +88,7 @@ const DesignAndEngineering = () => {
                 <CurvyLine />
                 <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Power System Studies
                         </h2>
@@ -105,7 +105,7 @@ const DesignAndEngineering = () => {
                         </p>
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Flood Risk Assessment
                         </h2>
@@ -121,7 +121,7 @@ const DesignAndEngineering = () => {
                         </p>
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
-                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full"></div>
+                        <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
                         <h2 className="text-xl font-bold mb-4">
                             Owner's Engineers
                         </h2>

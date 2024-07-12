@@ -9,8 +9,8 @@ const CurvyLine = () => (
       stroke="#61c06a"
       strokeWidth="6"
       d="M0,160 C180,250 360,50 540,120 C720,190 900,30 1080,120 C1260,210 1440,50 1440,50"
-    ></path>
+     />
   </svg>
-);
+)
 
-export default CurvyLine;
+export default CurvyLine

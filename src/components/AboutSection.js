@@ -3,9 +3,9 @@ import React from 'react'
 function AboutSection() {
     return (
         <>
-            <section id="about" className="pt-32"></section>
+            <section id="about" className="pt-32" />
             <section className=" bg-black bg-opacity-90 ">
-                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2"></div>
+                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2" />
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-9 container mx-auto py-12 px-4">
                     <div className="w-full rounded-3xl overflow-hidden lg:relative  lg:left-0">
                         <img
@@ -40,7 +40,7 @@ function AboutSection() {
                     </div>
                 </div>
             </section>
-            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2"></div>
+            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2" />
         </>
     )
 }

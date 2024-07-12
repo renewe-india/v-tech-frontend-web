@@ -73,13 +73,13 @@ function page() {
                 <ul className=" text-lg text-left mb-8">
                     <li className="flex items-center gap-4">
                         <div className="p-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                         </div>
                         <span>Savings of 25-40% per unit electricity.</span>
                     </li>
                     <li className="flex items-center gap-4">
                         <div className="p-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                         </div>
                         <span>
                             Waiver of 'Cross-subsidy surcharge' on minimal 26%
@@ -88,7 +88,7 @@ function page() {
                     </li>
                     <li className="flex items-center gap-4">
                         <div className="p-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                         </div>
                         <span>
                             Waiver of additional surcharge under 'Captive' and
@@ -97,7 +97,7 @@ function page() {
                     </li>
                     <li className="flex items-center gap-4">
                         <div className="p-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                         </div>
                         <span>
                             No technical expertise required for complete energy
@@ -106,7 +106,7 @@ function page() {
                     </li>
                     <li className="flex items-center gap-4">
                         <div className="p-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                         </div>
                         <span>
                             Bulk power consumers can meet 70-80% of energy from

@@ -43,7 +43,7 @@ function page() {
                                 <ul className="mt-3 mx-5 list-disc">
                                     <li className="flex items-start  gap-4 mt-2">
                                         <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                         </div>
                                         The consumer provides the space, and the
                                         developer invests in the equipment,
@@ -52,7 +52,7 @@ function page() {
                                     </li>
                                     <li className="flex items-start  gap-4 mt-2">
                                         <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                         </div>
                                         The customer pays for the power
                                         generated under a long-term power
@@ -61,7 +61,7 @@ function page() {
                                     </li>
                                     <li className="flex items-start  gap-4 mt-2">
                                         <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                         </div>
                                         The capital is repaid through generated
                                         electricity.
@@ -91,19 +91,19 @@ function page() {
                                 <ul className="mt-3 mx-5 list-none">
                                     <li className="flex items-start  gap-4 mt-2">
                                         <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                         </div>
                                         No upfront investment.
                                     </li>
                                     <li className="flex items-start  gap-4 mt-2">
                                         <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                         </div>
                                         Cheaper and risk-free electricity.
                                     </li>
                                     <li className="flex items-start  gap-4 mt-2">
                                         <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                                            <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                         </div>
                                         Capital repaid through generated
                                         electricity.

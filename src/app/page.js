@@ -1,9 +1,9 @@
-import AboutSection from "@/components/AboutSection";
-import HeroSection from "@/components/HeroSection";
-import KnowMoreSection from "@/components/KnowMoreSection";
-import NumberSection from "@/components/NumberSection";
-import OurGoalSection from "@/components/OurGoalSection";
-import WhoWeAre from "@/components/WhoWeAre";
+import AboutSection from "@/components/AboutSection"
+import HeroSection from "@/components/HeroSection"
+import KnowMoreSection from "@/components/KnowMoreSection"
+import NumberSection from "@/components/NumberSection"
+import OurGoalSection from "@/components/OurGoalSection"
+import WhoWeAre from "@/components/WhoWeAre"
 
 function HomePage() {
   return (
@@ -15,7 +15,7 @@ function HomePage() {
       <KnowMoreSection />
       <OurGoalSection />
     </>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

@@ -1,17 +1,17 @@
-"use client";
-import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+"use client"
+import Link from "next/link"
+import { useState, useEffect, useRef } from "react"
 
 function Navbar() {
-  const [navOpen, setNavOpen] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
 
-  const navRef = useRef(null);
-  const dropdownRef = useRef(null);
+  const navRef = useRef(null)
+  const dropdownRef = useRef(null)
 
   const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   const handleClickOutside = (event) => {
     if (
@@ -20,17 +20,17 @@ function Navbar() {
       dropdownRef.current &&
       !dropdownRef.current.contains(event.target)
     ) {
-      setNavOpen(false);
-      setIsOpen(false);
+      setNavOpen(false)
+      setIsOpen(false)
     }
-  };
+  }
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside)
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
+  }, [])
 
   return (
     <>
@@ -188,7 +188,7 @@ function Navbar() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M6 18L18 6M6 6l12 12"
-                  ></path>
+                   />
                 </svg>
               </div>
             </div>
@@ -298,7 +298,7 @@ function Navbar() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

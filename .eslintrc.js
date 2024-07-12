@@ -27,6 +27,8 @@ module.exports = {
         requireConfigFile: false,
         babelOptions: {
             presets: ['@babel/preset-react'],
+            babelrc: false,
+            configFile: false,
         },
     },
     rules: {

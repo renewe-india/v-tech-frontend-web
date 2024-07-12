@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function page() {
   const terms = [
@@ -32,7 +32,7 @@ function page() {
       description:
         "Due diligence in project management refers to the thorough investigation and analysis conducted before making critical decisions or entering into agreements. This involves assessing risks, opportunities, and potential challenges associated with the project. Due diligence ensures informed decision-making and reduces uncertainties throughout the project lifecycle",
     },
-  ];
+  ]
   return (
     <div className="container my-24 mx-auto p-5">
       <div className="flex flex-col lg:flex-row lg:gap-32 items-start justify-center">
@@ -58,21 +58,21 @@ function page() {
               <li key={index} className="">
                 <div className="flex items-start  gap-4 mt-2">
                   <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
-                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                   </div>
                   <span className="text-[#61c06a] font-bold">{term.title}</span>
                 </div>
                 <div className="term-description">
                   <p>{term.description}</p>
                 </div>
-                <hr className="bg-black "></hr>
+                <hr className="bg-black " />
               </li>
             ))}
           </ul>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default page;
+export default page

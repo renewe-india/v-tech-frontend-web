@@ -14,7 +14,7 @@ function Footer() {
     return (
         <>
             <footer className="bg-theme-700 mt-2 border-t border-theme-default bg-black">
-                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2"></div>
+                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] p-2" />
                 <div className="container mx-auto px-4 pt-6 text-white mt-2">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 ">
                         <ul className="space-y-4 text-xl">
@@ -46,7 +46,7 @@ function Footer() {
                                         <div>info@vtechrenewables.com</div>
                                     </div>
                                 </a>
-                                <a href="tel:+919098797979" target="_blank">
+                                <a href="tel:+919098797979" target="_blank" rel="noreferrer">
                                     <div className="flex items-center gap-4">
                                         <Phone size={32} color="#61c06a" />
                                         <div>+91 90987 97979</div>

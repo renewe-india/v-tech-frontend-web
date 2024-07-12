@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React from "react";
+import Link from "next/link"
+import React from "react"
 
 function HeroSection() {
   return (
@@ -40,7 +40,7 @@ function HeroSection() {
         </div>
       </section>
     </div>
-  );
+  )
 }
 
-export default HeroSection;
+export default HeroSection

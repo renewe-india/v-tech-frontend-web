@@ -1,9 +1,9 @@
-"use client";
+"use client"
 
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 function page() {
-  const [selectedOption, setSelectedOption] = useState("Services");
+  const [selectedOption, setSelectedOption] = useState("Services")
   return (
     <div className="my-32 mx-auto container px-4">
       <div className="text-theme-dark text-4xl mt-2">Drop Us a Message</div>
@@ -64,7 +64,7 @@ function page() {
               rows="8"
               placeholder="Your Message *"
               className="border rounded-lg  border-gray-300 block w-full p-3 text-lg"
-            ></textarea>
+             />
             <div>
               <button className="bg-theme-default px-4 py-3 text-lg lg:text-lg text-center font-sans text-white rounded-lg overflow-hidden">
                 Send Message
@@ -74,7 +74,7 @@ function page() {
         </div>
       </form>
     </div>
-  );
+  )
 }
 
-export default page;
+export default page
