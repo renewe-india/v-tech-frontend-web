@@ -8,9 +8,7 @@ import {
     MapPin,
     LinkedinLogo,
 } from '@phosphor-icons/react'
-import { useRouter } from 'next/navigation'
 function Footer() {
-    const router = useRouter()
     return (
         <>
             <footer className="bg-theme-700 mt-2 border-t border-theme-default bg-black">
@@ -46,7 +44,10 @@ function Footer() {
                                         <div>info@vtechrenewables.com</div>
                                     </div>
                                 </a>
-                                <a href="tel:+919098797979" target="_blank" rel="noreferrer">
+                                <a
+                                    href="tel:+919098797979"
+                                    target="_blank"
+                                    rel="noreferrer">
                                     <div className="flex items-center gap-4">
                                         <Phone size={32} color="#61c06a" />
                                         <div>+91 90987 97979</div>

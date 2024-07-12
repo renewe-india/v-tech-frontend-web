@@ -1,5 +1,4 @@
 import CurvyLine from '@/components/CurvyLine'
-import WaveBackground from '@/components/WaveBackground'
 import React from 'react'
 
 const DesignAndEngineering = () => {
