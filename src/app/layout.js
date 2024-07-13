@@ -1,10 +1,11 @@
-import { Nunito_Sans } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
-const nunito = Nunito_Sans({
+const nunitoFont = Nunito({
     subsets: ['latin'],
+    display: 'swap',
 })
 export const metadata = {
     title: 'V-TECH RENEWABLES',
@@ -15,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={nunito.className}>
+            <body className={nunitoFont.className}>
                 <Navbar />
                 <div className="flex flex-col min-h-screen">
                     <main className="flex-1">{children}</main>
