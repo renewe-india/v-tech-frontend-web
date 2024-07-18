@@ -3,7 +3,7 @@
 import axios from '@/lib/axios'
 import React, { useState } from 'react'
 
-function Page() {
+function ContactModal({ isModalOpen, setIsModalOpen }) {
     const [selectedOption, setSelectedOption] = useState('Services')
     const [name, setName] = useState('')
     const [phone, setPhone] = useState('')
@@ -29,46 +29,29 @@ function Page() {
             setEmail('')
             setMessage('')
             setSelectedOption('Services')
+            setIsModalOpen(false)
         } catch (error) {
             setError(error.response?.data?.message || 'Error submitting form')
         }
     }
 
     return (
-        <div className="my-32 mx-auto container px-4">
-            <div className="text-theme-dark text-4xl mt-2">
-                Drop Us a Message
-            </div>
-
-            <form onSubmit={handleSubmit} className="mt-12">
-                <div className="flex flex-col md:flex-row md:gap-10 gap-5">
-                    <div className="flex flex-col gap-5 lg:w-1/2">
-                        <input
-                            type="text"
-                            className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
-                            placeholder="Your Name *"
-                            value={name}
-                            onChange={e => setName(e.target.value)}
-                            required
-                        />
-                        <input
-                            type="text"
-                            className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
-                            placeholder="Your Phone *"
-                            value={phone}
-                            onChange={e => setPhone(e.target.value)}
-                            required
-                        />
-                        <input
-                            type="email"
-                            className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
-                            placeholder="Your Email *"
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
-                            required
-                        />
-                    </div>
-                    <div className="lg:w-1/2 flex flex-col gap-5">
+        <div
+            className={`z-50 fixed inset-0 flex justify-center items-center ${
+                isModalOpen ? 'visible backdrop-blur-md' : 'invisible'
+            }`}>
+            <div className="modal-box relative lg:w-96 p-8 mx-2 rounded-lg shadow-lg bg-white">
+                <form onSubmit={handleSubmit}>
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-circle btn-ghost absolute right-4 top-4"
+                        onClick={() => setIsModalOpen(false)}>
+                        ✕
+                    </button>
+                    <div className="flex flex-col gap-4">
+                        <label className="pt-0 label label-text font-semibold">
+                            <span>Drop Us a Message</span>
+                        </label>
                         <select
                             className={`border rounded-lg border-gray-300 block w-full p-3 text-lg ${
                                 selectedOption === 'Services'
@@ -104,30 +87,49 @@ function Page() {
                             </option>
                             <option value="Other">Other</option>
                         </select>
-
-                        <textarea
-                            name=""
-                            id=""
-                            placeholder="Your Message *"
+                        <input
+                            type="text"
                             className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
-                            style={{ height: '130px' }}
+                            placeholder="Your Name *"
+                            value={name}
+                            onChange={e => setName(e.target.value)}
+                            required
+                        />
+                        <input
+                            type="text"
+                            className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
+                            placeholder="Your Phone *"
+                            value={phone}
+                            onChange={e => setPhone(e.target.value)}
+                            required
+                        />
+                        <input
+                            type="email"
+                            className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
+                            placeholder="Your Email *"
+                            value={email}
+                            onChange={e => setEmail(e.target.value)}
+                            required
+                        />
+                        <textarea
+                            className="border rounded-lg border-gray-300 block w-full p-3 text-lg"
+                            placeholder="Your Message *"
+                            rows="4"
                             value={message}
                             onChange={e => setMessage(e.target.value)}
                             required
                         />
-                        <div>
-                            {error && <p className="text-red-500">{error}</p>}
-                            <button
-                                type="submit"
-                                className="bg-theme-default px-4 py-3 text-lg lg:text-lg text-center font-sans text-white rounded-lg overflow-hidden">
-                                Send Message
-                            </button>
-                        </div>
+                        {error && <p className="text-red-500">{error}</p>}
+                        <button
+                            type="submit"
+                            className="bg-theme-default px-4 py-2 text-lg text-white rounded-lg">
+                            Send Message
+                        </button>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     )
 }
 
-export default Page
+export default ContactModal
