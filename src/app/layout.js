@@ -1,9 +1,9 @@
-import { Nunito } from 'next/font/google'
+import { Nunito_Sans } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
-const nunitoFont = Nunito({
+const nunitoFont = Nunito_Sans({
     subsets: ['latin'],
     display: 'swap',
 })
