@@ -16,7 +16,7 @@ function HeroSection() {
 
                 <div className="absolute top-0 w-full h-full bg-opacity-60 bg-black py-12">
                     <div className="container px-4 m-auto flex items-end h-full w-full">
-                        <div className="text-white space-y-3 md:space-y-5 mb-24 lg:mb-48">
+                        <div className="text-white space-y-3 md:space-y-5 lg:mb-48">
                             <div className="text-4xl md:text-6xl font-bold md:max-w-4xl font-sans">
                                 <span className="text-theme-default">
                                     Solar{' '}
