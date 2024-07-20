@@ -5,10 +5,10 @@ const DesignAndEngineering = () => {
     return (
         <div className="container my-24 mx-auto p-5">
             <div className="text-4xl md:text-5xl  md:max-w-4xl ">
-                <span className="text-black font-black ">Design</span>{' '}
+                <span className="text-black font-extrabold ">Design</span>{' '}
                 <span className="text-theme-default">&amp; Engineering</span>
             </div>
-            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-black my-5">
+            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
                 Overview
             </div>
             <p className="text-lg text-left mb-8">

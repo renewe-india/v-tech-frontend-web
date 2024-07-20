@@ -42,14 +42,14 @@ function page() {
                     <div className="container p-5 m-auto flex items-end h-full w-full">
                         <div className="text-white space-y-3 md:space-y-5">
                             <div className="text-4xl md:text-5xl  md:max-w-4xl ">
-                                <span className="text-black font-black ">
+                                <span className="text-black font-extrabold ">
                                     Open Access
                                 </span>{' '}
                                 <span className="text-theme-default">
                                     (Group Captive)
                                 </span>
                             </div>
-                            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-black my-5">
+                            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
                                 Overview
                             </div>
                             <p className="text-lg text-black text-left mb-8">
@@ -67,7 +67,7 @@ function page() {
                 </div>
             </section>
             <div className="container  mx-auto p-5">
-                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-black my-5">
+                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
                     It's Benefits
                 </div>
                 <ul className=" text-lg text-left mb-8">
@@ -114,7 +114,7 @@ function page() {
                         </span>
                     </li>
                 </ul>
-                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-black my-5">
+                <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
                     Explanation of the Group Captive (Open Access) Model
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-stretch">

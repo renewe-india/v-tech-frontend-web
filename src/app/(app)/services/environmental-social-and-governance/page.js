@@ -27,7 +27,7 @@ function Page() {
                     <div className="container p-5 m-auto flex items-end h-full w-full">
                         <div className="text-white space-y-3 md:space-y-5">
                             <div className="text-4xl md:text-5xl  text-left ">
-                                <span className="text-black font-black">
+                                <span className="text-black font-extrabold">
                                     {' '}
                                     Environmental,
                                 </span>{' '}
@@ -35,7 +35,7 @@ function Page() {
                                     Social, and Governance (ESG)
                                 </span>
                             </div>
-                            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-black my-5">
+                            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
                                 Overview
                             </div>
                             <p className="text-lg text-black text-left mb-8">

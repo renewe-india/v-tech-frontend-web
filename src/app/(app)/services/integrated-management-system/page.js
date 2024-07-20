@@ -28,12 +28,12 @@ function page() {
     return (
         <div className="container my-24 mx-auto p-5">
             <div className="text-4xl md:text-5xl  text-left">
-                <span className="text-black font-black "> Integrated </span>
+                <span className="text-black font-extrabold "> Integrated </span>
                 <span className="text-theme-default">
                     Management System (IMS)
                 </span>
             </div>
-            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-black my-5">
+            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-bold my-5">
                 Overview
             </div>
             <p className="text-lg text-left mb-8">
@@ -66,7 +66,7 @@ function page() {
                                     />
                                 </div>
                             </div>
-                            <h2 className="text-xl text-center font-extrabold mt-24">
+                            <h2 className="text-xl text-center font-bold mt-24">
                                 {tab.title}
                             </h2>
                         </div>
