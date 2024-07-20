@@ -5,13 +5,13 @@ const DesignAndEngineering = () => {
     return (
         <div className="container my-24 mx-auto p-5">
             <div className="text-4xl md:text-5xl  md:max-w-4xl ">
-                <span className="text-black font-extrabold ">Design</span>{' '}
+                <span className="text-black font-semibold">Design</span>{' '}
                 <span className="text-theme-default">&amp; Engineering</span>
             </div>
-            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
+            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-semibold my-5">
                 Overview
             </div>
-            <p className="text-lg text-left mb-8">
+            <p className="text-xl text-left mb-8">
                 V-TECH Renewables specializes in conducting thorough feasibility
                 studies to assess the viability of solar power projects. Our
                 team of electrical Engineers offers tailored solutions for a
@@ -26,10 +26,10 @@ const DesignAndEngineering = () => {
                 <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Feasibility Studies
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             Studies are a critical phase in the design and
                             engineering of solar power projects. These studies
                             assess the viability and potential challenges
