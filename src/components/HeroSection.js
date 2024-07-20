@@ -16,8 +16,8 @@ function HeroSection() {
 
                 <div className="absolute top-0 w-full h-full bg-opacity-60 bg-black py-12">
                     <div className="container px-4 m-auto flex items-end h-full w-full">
-                        <div className="text-white space-y-3 md:space-y-5 lg:mb-48">
-                            <div className="text-4xl md:text-6xl font-bold md:max-w-4xl font-sans">
+                        <div className="text-white space-y-3 md:space-y-5 my-auto lg:mb-48">
+                            <div className="text-4xl md:text-6xl font-bold md:max-w-4xl mt-12 font-sans">
                                 <span className="text-theme-default">
                                     Solar{' '}
                                 </span>{' '}
@@ -26,7 +26,7 @@ function HeroSection() {
                             </div>
                             <div className="grid grid-cols-1 lg:grid-cols-2">
                                 <div className="space-y-8">
-                                    <div className="text-lg text-gray-300">
+                                    <div className="text-base lg:text-lg text-gray-300">
                                         Optimize your Solar Power requirements
                                         with us. We specialize in Efficient
                                         Design and Engineering Solutions for

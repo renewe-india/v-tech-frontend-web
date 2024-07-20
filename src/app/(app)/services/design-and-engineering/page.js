@@ -46,7 +46,7 @@ const DesignAndEngineering = () => {
                             Electrical Engineering
                         </h2>
                         <p className="text-gray-700">
-                            This includes designing layout of solar plant. SLD,
+                            This includes designing layout of solar plant, SLD,
                             PVsyst, AC & DC cabling layouts with calculations,
                             earthing & LA layouts with calculations, sub-station
                             & transmission lines.
