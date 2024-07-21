@@ -26,7 +26,7 @@ function HeroSection() {
                             </div>
                             <div className="grid grid-cols-1 lg:grid-cols-2">
                                 <div className="space-y-8">
-                                    <div className="text-base lg:text-lg text-gray-300">
+                                    <div className="text-base lg:text-base text-gray-300">
                                         Optimize your Solar Power requirements
                                         with us. We specialize in Efficient
                                         Design and Engineering Solutions for

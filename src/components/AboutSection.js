@@ -22,7 +22,7 @@ function AboutSection() {
                             <div className="text-4xl  font-bold ">
                                 V-TECH RENEWABLES
                             </div>
-                            <div className="text-xl md:text-lg text-theme-default font-extrabold tracking-wide">
+                            <div className="text-xl md:text-lg text-theme-default font-bold tracking-wide">
                                 Empowering Lives with Sustainable Energy
                             </div>
                         </div>

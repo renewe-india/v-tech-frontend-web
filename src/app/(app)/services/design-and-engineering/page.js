@@ -5,10 +5,10 @@ const DesignAndEngineering = () => {
     return (
         <div className="container my-24 mx-auto p-5">
             <div className="text-4xl md:text-5xl  md:max-w-4xl ">
-                <span className="text-black font-semibold">Design</span>{' '}
+                <span className="text-black font-bold">Design</span>{' '}
                 <span className="text-theme-default">&amp; Engineering</span>
             </div>
-            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-semibold my-5">
+            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-bold my-5">
                 Overview
             </div>
             <p className="text-xl text-left mb-8">
@@ -42,10 +42,10 @@ const DesignAndEngineering = () => {
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Electrical Engineering
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             This includes designing layout of solar plant, SLD,
                             PVsyst, AC & DC cabling layouts with calculations,
                             earthing & LA layouts with calculations, sub-station
@@ -54,10 +54,10 @@ const DesignAndEngineering = () => {
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Civil and Structural Engineering
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             Civil and structural engineering are essential
                             components in the development of solar power
                             projects. Our Engineers focus on the design and
@@ -69,10 +69,10 @@ const DesignAndEngineering = () => {
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Detailed Engineering
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             Our team prepares the designs, project engineering
                             and execution drawings in conjunction to the
                             technical specifications, design criteria and
@@ -88,10 +88,10 @@ const DesignAndEngineering = () => {
                 <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Power System Studies
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             Power system studies in the context of solar plant
                             encompass a thorough examination of electrical
                             systems. Our Engineers conduct studies to analyze
@@ -105,10 +105,10 @@ const DesignAndEngineering = () => {
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Flood Risk Assessment
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             Flood risk assessment is a crucial step in ensuring
                             the resilience and durability of solar plant
                             installations. Our Engineers assess the site's
@@ -121,10 +121,10 @@ const DesignAndEngineering = () => {
                     </div>
                     <div className="relative bg-white rounded-lg shadow-md p-6">
                         <div className="absolute top-[20px] left-[-16px] w-8 h-8 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full" />
-                        <h2 className="text-xl font-bold mb-4">
+                        <h2 className="text-xl font-semibold mb-4 text-theme-default">
                             Owner's Engineers
                         </h2>
-                        <p className="text-gray-700">
+                        <p className="text-base">
                             The role of an Owner's Engineers involves
                             representing the project owner's interests
                             throughout the solar power project development

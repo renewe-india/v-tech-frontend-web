@@ -38,13 +38,10 @@ function page() {
             <div className="flex flex-col lg:flex-row lg:gap-32 items-start justify-center">
                 <div className="lg:w-1/3 w-full mb-8 lg:mb-0">
                     <div className="text-4xl md:text-5xl  text-left ">
-                        <span className="text-black font-extrabold">
-                            {' '}
-                            Project
-                        </span>{' '}
+                        <span className="text-black font-bold"> Project</span>{' '}
                         <span className="text-theme-default">Management</span>
                     </div>
-                    <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
+                    <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-bold my-5">
                         Overview
                     </div>
                     <p className="text-lg text-left mb-8">
@@ -64,11 +61,11 @@ function page() {
                                     <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
                                         <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
                                     </div>
-                                    <span className="text-[#61c06a] font-bold">
+                                    <span className="text-[#61c06a] font-semibold">
                                         {term.title}
                                     </span>
                                 </div>
-                                <div className="term-description">
+                                <div className="term-description text-base">
                                     <p>{term.description}</p>
                                 </div>
                                 <hr className="bg-black " />

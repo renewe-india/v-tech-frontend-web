@@ -28,7 +28,7 @@ function page() {
     return (
         <div className="container my-24 mx-auto p-5">
             <div className="text-4xl md:text-5xl  text-left">
-                <span className="text-black font-extrabold "> Integrated </span>
+                <span className="text-black font-bold "> Integrated </span>
                 <span className="text-theme-default">
                     Management System (IMS)
                 </span>
@@ -70,7 +70,9 @@ function page() {
                                 {tab.title}
                             </h2>
                         </div>
-                        <p className="text-center">{tab.description}</p>
+                        <p className="text-center text-base">
+                            {tab.description}
+                        </p>
                     </div>
                 ))}
             </div>

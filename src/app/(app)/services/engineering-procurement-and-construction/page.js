@@ -9,7 +9,7 @@ function Page() {
                     <div className="container p-5 m-auto flex items-end h-full w-full">
                         <div className="text-white space-y-3 md:space-y-5">
                             <div className="text-4xl md:text-5xl text-left ">
-                                <span className="text-black font-extrabold">
+                                <span className="text-black font-bold">
                                     {' '}
                                     Engineering,
                                 </span>{' '}
@@ -17,7 +17,7 @@ function Page() {
                                     Procurement and Construction (EPC)
                                 </span>
                             </div>
-                            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
+                            <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-bold my-5">
                                 Overview
                             </div>
                             <p className="text-lg text-black text-left mb-8">
@@ -52,7 +52,7 @@ function Page() {
                                 <span> Planning &amp; Conceptualization</span>
                             </div>
                         </div>
-                        <ul className="mt-3 mx-5 list-none">
+                        <ul className="mt-3 mx-5 list-none text-base">
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
                                     <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
@@ -91,7 +91,7 @@ function Page() {
                                 Implementation & Construction
                             </div>
                         </div>
-                        <ul className="mt-3 mx-5 list-disc">
+                        <ul className="mt-3 mx-5 list-none text-base">
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
                                     <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />
@@ -146,7 +146,7 @@ function Page() {
                                 Operation & Maintenance
                             </div>
                         </div>
-                        <ul className="mt-3 mx-5 list-disc">
+                        <ul className="mt-3 mx-5 list-none text-base">
                             <li className="flex items-start  gap-4 mt-2">
                                 <div className="p-1 mt-1 bg-gradient-to-r from-[#61c06a] to-[#549b9b] rounded-full flex items-center justify-center">
                                     <div className="w-2 h-2 bg-[#f2f2f2] rounded-full" />

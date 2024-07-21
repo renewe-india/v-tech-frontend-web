@@ -7,13 +7,10 @@ function page() {
             <div className="flex flex-col lg:flex-row lg:gap-32 items-start justify-center">
                 <div className="lg:w-1/3 w-full mb-8 lg:mb-0">
                     <div className="text-4xl md:text-5xl  text-left">
-                        <span className="text-black font-extrabold">
-                            {' '}
-                            Quality{' '}
-                        </span>
+                        <span className="text-black font-bold"> Quality </span>
                         <span className="text-theme-default">Assurance</span>
                     </div>
-                    <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-extrabold my-5">
+                    <div className="bg-gradient-to-r from-[#61c06a] to-[#549b9b] inline-block text-transparent bg-clip-text text-3xl font-bold my-5">
                         Overview
                     </div>
                     <p className="text-lg text-left mb-8">
