@@ -24,7 +24,7 @@ function ContactModal({ isModalOpen, setIsModalOpen }) {
         }
 
         try {
-            await axios.post('api/form-submit/form-submitted', formData)
+            await axios.post('api/tenant/form-submitted', formData)
             setName('')
             setPhone('')
             setEmail('')
