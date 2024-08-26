@@ -14,26 +14,29 @@ function HeroSection() {
                     alt="hero background"
                 />
 
-                <div className="absolute top-0 w-full h-full bg-opacity-60 bg-black py-12">
+                <div className="absolute top-0 w-full h-full bg-opacity-70 bg-black py-12">
                     <div className="container px-4 m-auto flex items-end h-full w-full">
                         <div className="text-white space-y-3 md:space-y-5 my-auto lg:mb-48">
                             <div className="text-4xl md:text-6xl font-bold md:max-w-4xl mt-12 ">
+                                <span>Excellence Partner for </span>
                                 <span className="text-theme-default">
-                                    Solar{' '}
-                                </span>{' '}
-                                <span className="underline">Design</span> &amp;
-                                Engineering Excellence Partner
+                                    Renewable Energy
+                                </span>
+                                <span> Solutions</span>
                             </div>
                             <div className="grid grid-cols-1 lg:grid-cols-2">
                                 <div className="space-y-8">
                                     <div className="text-base lg:text-base text-gray-300">
-                                        Optimize your Solar Power requirements
-                                        with us. We specialize in Efficient
-                                        Design and Engineering Solutions for
-                                        EPCs, Developers &amp; Investors,
-                                        ensuring timely and budget-friendly
-                                        success. Partner with us for streamlined
-                                        operations and maximum ROI.
+                                        V-TECH Renewables enables business
+                                        owners in achieving India's Net Zero
+                                        emission target by 2070 and reducing
+                                        their electricity bills. In addition to
+                                        financing solar projects, we provide
+                                        efficient engineering and design
+                                        solutions, as well as project completion
+                                        on schedule and within budget. As a
+                                        partner, we can help you streamline your
+                                        operations and boost your ROI.
                                     </div>
                                     <div
                                         onClick={() => setIsModalOpen(true)}
