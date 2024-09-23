@@ -19,7 +19,7 @@ function Footer() {
                             <li className="text-2xl text-theme-default font-bold">
                                 Company
                             </li>
-                            <div className="text-lg space-y-1 text-gray-400">
+                            <div className="text-base space-y-1 text-gray-400">
                                 <li className="text-gray-400">
                                     <Link href="/"> Home</Link>
                                 </li>
@@ -33,7 +33,7 @@ function Footer() {
                             <li className="text-2xl text-theme-default font-bold">
                                 Contact
                             </li>
-                            <div className=" text-lg space-y-1 text-gray-400">
+                            <div className=" text-base space-y-1 text-gray-400">
                                 <a href="mailto:info@vtechrenewables.com?subject=Me&body=Hello!">
                                     <div className="flex items-center gap-4">
                                         <EnvelopeSimple
@@ -79,12 +79,13 @@ function Footer() {
                             <li className=" gap-4 text-2xl text-theme-default font-bold">
                                 Address
                             </li>
-                            <div className="text-lg flex  gap-4 text-gray-400">
+                            <div className="text-base flex  gap-4 text-gray-400">
                                 <div className="flex-shrink-0 w-8 h-8">
                                     <MapPin size={32} color="#61c06a" />
                                 </div>
-                                #01, Ground Floor, Pinnac Apt., Vakil Nagar,
-                                Erandwane, Pune, Maharashtra - 411004
+                                #302, Balaji Enclave, Datta Nagar Road, Sai
+                                Colony,
+                                <br /> Katraj, Pune, Maharashtra - 411046
                             </div>
                         </ul>
                     </div>
@@ -97,7 +98,9 @@ function Footer() {
                                 alt="logo pic"
                             />
                         </div>
-                        <div>Copyright © 2024 V-TECH RENEWABLES</div>
+                        <div className="text-base">
+                            Copyright © 2024 V-TECH RENEWABLES
+                        </div>
                     </div>
                 </div>
             </footer>

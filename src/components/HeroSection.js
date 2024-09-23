@@ -24,9 +24,9 @@ function HeroSection() {
                                 </span>
                                 <span> Solutions</span>
                             </div>
-                            <div className="grid grid-cols-1 lg:grid-cols-2">
-                                <div className="space-y-8">
-                                    <div className="text-base lg:text-base text-gray-300">
+                            <div className="grid grid-cols-1 lg:grid-cols-3">
+                                <div className="space-y-8 lg:col-span-2">
+                                    <div className="text-base lg:text-lg text-gray-300">
                                         V-TECH Renewables enables business
                                         owners in achieving India's Net Zero
                                         emission target by 2070 and reducing
