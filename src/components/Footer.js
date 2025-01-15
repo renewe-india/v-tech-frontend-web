@@ -83,9 +83,13 @@ function Footer() {
                                 <div className="flex-shrink-0 w-8 h-8">
                                     <MapPin size={32} color="#61c06a" />
                                 </div>
-                                #302, Balaji Enclave, Datta Nagar Road, Sai
-                                Colony,
-                                <br /> Katraj, Pune, Maharashtra - 411046
+                                <p>
+                                    #302, Balaji Enclave, Third Floor
+                                    <br />
+                                    Datta Nagar Road, Sai Colony, Katraj
+                                    <br />
+                                    Pune, Maharashtra, India - 411046
+                                </p>
                             </div>
                         </ul>
                     </div>
@@ -99,7 +103,7 @@ function Footer() {
                             />
                         </div>
                         <div className="text-base">
-                            Copyright © 2024 V-TECH RENEWABLES
+                            Copyright © 2025 V-TECH RENEWABLES
                         </div>
                     </div>
                 </div>
